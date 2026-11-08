@@ -1,0 +1,22 @@
+{
+  "name": "premium-school-admission-system",
+  "version": "1.0.0",
+  "description": "Premium School Website and Online Admission Booking System",
+  "main": "index.js",
+  "engines": {
+    "node": ">=24.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "start:admin": "node admin.js",
+    "dev": "node index.js & node admin.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.4"
+  }
+}
